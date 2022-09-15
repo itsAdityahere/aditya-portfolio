@@ -1,0 +1,23 @@
+.dp-container{
+    /*height: 400px;*/
+    /*width: 400px;*/
+    border-radius: 40px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-side-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width: 768px) {
+    .left-side-home{
+        margin-top: 30px;
+    }
+}
+.dp-container img{
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
